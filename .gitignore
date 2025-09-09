@@ -1,0 +1,244 @@
+# =============================================================================
+# 机器学习相关文件
+# =============================================================================
+
+# 模型权重和检查点
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.ckpt
+*.pb
+*.onnx
+*.tflite
+*.mlmodel
+
+# TensorBoard日志
+runs/
+logs/
+tensorboard/
+tb_logs/
+
+# 训练结果和缓存
+results/
+outputs/
+checkpoints/
+saved_models/
+model_weights/
+experiments/
+
+# 数据文件
+*.npz
+*.npy
+*.csv
+*.json
+*.hdf5
+*.parquet
+data/
+dataset/
+datasets/
+raw_data/
+processed_data/
+
+# =============================================================================
+# Python相关
+# =============================================================================
+
+# 字节码缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 分发/打包
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# =============================================================================
+# 图像和视频文件（大文件）
+# =============================================================================
+
+# 图像文件
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.svg
+*.eps
+*.pdf
+
+# 视频文件
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mkv
+
+# 音频文件
+*.mp3
+*.wav
+*.flac
+*.aac
+
+# =============================================================================
+# 临时文件和日志
+# =============================================================================
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+*.out
+*.err
+
+# =============================================================================
+# 特定于项目的文件
+# =============================================================================
+
+# LSTM基准模型输出
+lstm_baseline/lstm_best_model.pth
+lstm_baseline/lstm_final_model.pth
+lstm_baseline/lstm_training_results.pth
+
+# 诊断输出
+diagnose/*.png
+diagnose/*.txt
+diagnose/signal_distribution.png
+diagnose/image_distribution.png
+diagnose/signal_image_correlation.png
+diagnose/data_analysis_report.txt
+
+# 可视化输出
+figures/
+plots/
+
+# 大型压缩文件
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# =============================================================================
+# 操作系统
+# =============================================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# =============================================================================
+# 云存储和同步
+# =============================================================================
+
+# Dropbox
+.dropbox
+.dropbox.attr
+.dropbox.cache
+
+# Google Drive
+.google-drive/
+
+# OneDrive
+.onedrive
+
+# =============================================================================
+# 其他大文件类型
+# =============================================================================
+
+# MATLAB
+*.mat
+*.fig
+
+# 二进制数据
+*.bin
+*.dat
+*.raw
+
+# 配置文件（如果包含敏感信息）
+config_local.py
+local_settings.py
+secrets.py
+
+# 测试覆盖率报告
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# 用户自定义忽略文件
+# 在这里添加项目特定的忽略规则
